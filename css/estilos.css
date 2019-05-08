@@ -1,0 +1,151 @@
+/*RESET*/
+body{
+    margin: 0;
+    padding: 0;    
+    background-color: black;    
+    color: white;    
+}
+/*MENU*/
+.menu ul {
+    padding: 20px 0 20px 0;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    background-color: #0B3B0B;
+}
+
+.menu ul li { 
+    display: inline; 
+    text-align: center;
+}
+
+.menu ul li a {
+    padding: 0 50px;
+    display: inline-block;
+
+    /* visual do link */   
+    color: white;
+    text-decoration: none;    
+    
+}
+/*FIM MENU*/
+
+/*TOPO*/
+.topo img{
+   max-width: 100%;
+}
+
+/*INÍCIO DESCRICAO*/
+.descricao{
+    background: url(../img/fundo2.jpg) no-repeat;
+    
+/* background-attachment: define se a imagem de 
+    fundo "rola" ou não com a tela */
+    background-attachment:fixed; 
+   
+    margin: 30px 0 30px 0;
+    text-align: justify;  
+    padding: 30px 20px 20px 20px;
+}
+
+.descricao h2{
+    padding: 10px;
+    text-align: center;
+}
+
+.descricao p{
+    width: 100%;
+    font-weight: 500; /* negrito */    
+    font-size: 25px;    
+}
+/*FIM DESCRICAO*/
+
+/*INÍCIO IMAGENS*/
+.imagens{
+    margin: 20px;      
+    text-align: center;   
+}
+
+.imagens img{
+    padding: 10px;
+    width: 560px;
+    height: 290px;
+}
+/*FIM IMAGENS*/
+
+/*INÍCIO INSTALAÇÃO*/
+.instalacao{
+    width: 100%;    
+    text-align: center;      
+    margin: 50px 0 50px 0;
+    padding: 50px 0 50px 0;
+}
+
+.btn{
+    width: 50px;
+    padding: 10px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 700;
+    color: black;
+}
+
+.btn:hover{
+    background-color: green;
+    color: white;
+}
+/*FIM INSTALAÇÃO*/
+
+.rodape{
+    padding: 10px 0 10px 0;
+    margin-top: 20px;
+    background-color: #2A1B0A;    
+    width: 100%;    
+}
+
+.rodape p{    
+    text-align: center;
+}
+
+/*RESPONSIVO - ADAPTAÇÃO ATÉ 580px*/
+@media screen and (max-width: 580px){
+    
+    .menu{
+        width: 94%;          
+    }
+    
+    .menu ul {
+        padding: 20px 10px 20px 10px;
+        margin: 0;       
+    }
+    
+    .menu ul li a{
+        font-size: 12px;
+        padding: 0 10px;
+    }
+    
+    .topo img{
+        margin-top: 30px;
+    }
+    
+    .descricao{
+        margin: 0;
+        padding: 5px 10px 10px 10px;
+    }
+    
+    .descricao p{
+        font-size: 15px;
+    }  
+    
+    .imagens img{
+        max-width: 90%; 
+        height: auto;
+    }       
+    
+    .android img{
+        max-width: 90%; 
+        height: auto;
+    }
+    
+}

@@ -1,0 +1,7 @@
+Projeto CEDET
+Trabalho volunt�rio
+Site criado para introdu��o dos alunos do CEDET ao HTML5 e CSS3.
+
+1 - criar pasta do projeto
+2 - criar pasta img
+3 - criar pasta css
